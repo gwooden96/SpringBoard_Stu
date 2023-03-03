@@ -22,7 +22,7 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="kr.gw.controller" />
-	
+	<context:component-scan base-package="kr.gw.service" />
 	
 	
 </beans:beans>
