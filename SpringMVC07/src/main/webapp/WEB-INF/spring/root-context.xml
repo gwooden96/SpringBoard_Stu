@@ -10,7 +10,7 @@
 	<!-- 히카리cp 커넥션 풀 연결 -->
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/com"></property>
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/com?useSSL=false"></property> <!-- SSL 인증 -->
 		<property name="username" value="com"></property>
 		<property name="password" value="com01"></property>
 	</bean>
